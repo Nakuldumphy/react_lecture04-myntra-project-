@@ -25,3 +25,10 @@ npm run build // to get production ready code
 
 // mee chata ki parcel as a dev dependency aaye // use -D
 // npm install -D parcel  // abb parcel as a dev dependency aaye ga
+
+
+
+// JSX : with the help of {} , we can write JS expression in JSX and we cannot write JS Statement inside {} i.e we cannot write let x = 2; in {}
+
+//difference between Expression and statement
+Expression vo hai jo output lake de(kuch result lake de) // jinki jaagha kuch aaske
