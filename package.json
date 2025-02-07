@@ -1,0 +1,18 @@
+{
+  "name": "nakul",
+  "version": "1.0.0",
+  "description": "*** Vite ( also a bundler )  ***\r  // khud hi sara setup krr dega\r  npm create vite@latest  : vite ko apne project me leaana \r  // abb index.html , package.json(dependencies mention hongi react and react-dom),  .gitignore file, js file 'src' ke andrr hai jisska extention .jsx kiya hai innhone // prr .jsx ke tho 2 file hai // check from html ki apni main file konsi hai",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
