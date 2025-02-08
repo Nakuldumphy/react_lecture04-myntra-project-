@@ -32,3 +32,5 @@ npm run build // to get production ready code
 
 //difference between Expression and statement
 Expression vo hai jo output lake de(kuch result lake de) // jinki jaagha kuch aaske
+Expression :  array, string, number , object.name(isski koi value hogi) etc
+statement : let x = 3, object etc
