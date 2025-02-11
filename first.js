@@ -25,11 +25,15 @@ const fun = ()=>{     // ye bhi Expression hai , since it can be replaced by ret
 
 
 // M-2(to call a JSX function):
-function Greet(){
-    return <h2>Ram Ram Bhaiya Ji {fun()}</h2>
+function Greet(props){  // jo bhi argumments 'props' me aaye honge vo object ki form me store hue honge // props ka naam hmm kuch bhi rakh skte hnn  i.e.   props = {name:"Nakul", age:"19"}
+    return <h2>Ram Ram Bhaiya Ji {fun()} {props.name} {props.age}</h2>
 }
-let element2 = <Greet/>;  // appka function ka first letter capital hona chaiye(but whY??) // this is the format of function in JSX // JSX ka rule hai not of react
+// let element2 = <Greet/>;  // appka function ka first letter capital hona chaiye(but whY??) // this is the format of function in JSX // JSX ka rule hai not of react
 // capital letter kyo?? // isse JSX ko pata chal jae ga ki ye user defined tag hai
+//react function name kaise bhi rakh do , but in JSX first letter of function name must be capital
+
+// <Greet/> : function call hi hai , but argument kaise pass krne hai??
+let element2 = <Greet name="Nakul Parmar" age= "19"/>  // passing argument in JSX
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(element2);
