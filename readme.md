@@ -26,6 +26,7 @@ npm run build // to get production ready code
 // mee chata ki parcel as a dev dependency aaye // use -D
 // npm install -D parcel  // abb parcel as a dev dependency aaye ga
 
+// difference between npm vs npx ??
 
 
 // JSX : with the help of {} , we can write JS expression in JSX and we cannot write JS Statement inside {} i.e we cannot write let x = 2; in {}
